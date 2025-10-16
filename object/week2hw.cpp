@@ -18,8 +18,8 @@ int* maxnum_address(int *a, int n){
             maxpointer=&a[i]; //address için 
             *maxpointer=a[i]; //value için
         }
-        return maxpointer;
     }
+    return maxpointer;
 }
 
 int main(int argc, char const *argv[]){
