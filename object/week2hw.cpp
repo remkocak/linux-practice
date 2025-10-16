@@ -19,7 +19,7 @@ int main(int argc, char const *argv[]){
         cout<<a[i]<<" ";
     }
     int maxnum=a[0];
-    for(int i=1; i<10;<i++){
+    for(int i=1; i<10; i++){
         if(a[i]>maxnum)
             maxnum=a[i];
     }
