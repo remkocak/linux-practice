@@ -17,6 +17,7 @@ int* maxnum_address(int *a, int n){
         if(a[i]> *maxpointer) {
             maxpointer=&a[i]; //address için 
             *maxpointer=a[i]; //value için
+            cout<<maxpointer<<endl;
         }
     }
     return maxpointer;
@@ -35,7 +36,7 @@ int main(int argc, char const *argv[]){
             maxnum=a[i];
     }
     cout<<maxnum<<endl;
-    cout<<"/n/n"<<endl;
+    cout<<'\n/n'<<endl;
     cout<<&a[0]<<endl; 
     // cout<<(a+1) de aynı sonucu verir
     char b[2]={'e','f'};
