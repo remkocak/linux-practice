@@ -38,8 +38,8 @@ int main(int argc, char const *argv[]){
     cout<<"/n/n"<<endl;
     cout<<&a[0]<<endl; 
     // cout<<(a+1) de aynı sonucu verir
-    char b[]={'ef'};
-    cout<<(int)b[0]<<endl; //b[0] yani e'nin integer cinsinden değerini basacak
+    char b[2]={'e','f'};
+   // cout<<(int)b[0]<<endl; //b[0] yani e'nin integer cinsinden değerini basacak
 
     maxnum_address(a,10);
 
