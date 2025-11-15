@@ -1,0 +1,22 @@
+!mantik operatorleri ornegi
+
+PROGRAM Mantik
+!IMPLICIT NONE
+LOGICAL::L1,L2,L3,L4,L5,L6,L7,L8,L9
+INTEGER::x,y 
+
+x=1
+y=2
+
+L1= TRUE
+L2= FALSE
+L3= L1 .OR. L2
+L4= 9>4
+L5= x>4
+L6= x<y .AND. y>0
+L7= .NOT. L4
+L8= L1 .EQV. L5
+
+PRINT*,L1,L2,L3,L4,L5,L6,L7,L8
+
+END PROGRAM

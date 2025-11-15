@@ -1,0 +1,35 @@
+
+
+*******************************************************************************
+Thu Oct 16 09:21:33 2025
+
+
+FIT:    data read from "measured.dat" u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 13
+function used for fitting: f(x)
+	f(x)=W*exp(x*Z)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   W             Z            
+   0 2.6484590082e+03   0.00e+00  7.30e+01    1.000000e+00   1.000000e-02
+ 232 1.0416267192e+01  -4.56e-01  7.30e-05    1.133811e-05   4.268531e-02
+
+After 232 iterations the fit converged.
+final sum of squares of residuals : 10.4163
+rel. change during last iteration : -4.55574e-06
+
+degrees of freedom    (FIT_NDF)                        : 11
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.973105
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.946933
+p-value of the Chisq distribution (FIT_P)              : 0.493377
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+W               = 1.13381e-05      +/- 4.249e-06    (37.47%)
+Z               = 0.0426853        +/- 0.001047     (2.453%)
+
+correlation matrix of the fit parameters:
+                W      Z      
+W               1.000 
+Z              -0.999  1.000 

@@ -42,7 +42,7 @@ int main(int argc, char const *argv[]){
     char b[2]={'e','f'};
    // cout<<(int)b[0]<<endl; //b[0] yani e'nin integer cinsinden değerini basacak
 
-    maxnum_address(a,10);
+    cout<<maxnum_address(a,10)<<endl;
 
     return 0;
 }
